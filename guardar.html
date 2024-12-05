@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="fondo1.css">
+</head>
+<body><font color="white">
+<form method="POST" >
+	<center>
+	<h1>guardar personas</h1>
+	CURP:<br>
+	<input type="text" name="curptx"><br>
+	NOMBRE:<br>
+	<input type="text" name="nombretx"><br>
+	APELLIDO PATERNO:<br>
+	<input type="text" name="apPAtx"><br>
+	APELLIDO MATERNO:<br>
+	<input type="text" name="apMAtx"><br>
+	SEXO:<br>
+	<input type="radio" name="sexotx" value="Masculino">Masculino<br>
+	<input type="radio" name="sexotx" value="Femenino">Femenino<br>
+	FECHA NACIMIENTO:<br>
+	<input type="date" name="nacitx"><br>
+	<h1>guardar direcciones</h1>
+	calle:<br>
+	<input type="text" name="calletx"><br>
+	numero:<br>
+	<input type="text" name="numerotx"><br>
+	colonia:<br>
+	<input type="text" name="coloniatx"><br>
+	municipio:<br>
+	<input type="text" name="municipiotx"><br>
+	estado:<br>
+	<select name="estadotx">
+		<option value="hidalgo">Hidalgo</option>
+		<option value="queretaro">Queretaro</option>
+		<option value="guadalajara">Guadalajara</option>
+	</select><br>
+	codpostal:<br>
+	<input type="text" name="codposttx"><br>
+    <input type="submit" name="conectar" formaction="http://localhost/telcelpalcialb/guardar.php"  value="enviar">
+</center>
+</form>
+</font>
+</body>
+</html>
